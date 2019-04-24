@@ -1,28 +1,38 @@
 # 数据类型
 
-## 类型
+## 基本类型
 
-### 基本类型
+| 类型 | 关键字 | 长度（字节） |
+| :--: | :--: | :----: |
+| 布尔型 | bool | 1 |
+| 字符型 | char | 1 |
+| 整型 | int | 4 |
+| 浮点型 | float | 4 |
+| 双浮点型 | double | 8 |
+| 无类型 | void |  |
+| 宽字符型 | wchar_t | 2 |
 
-| 类型 | 关键字 | 长度（字节） | 范围 |
-| :--: | :--: | :----: | :----: |
-| 布尔型 | bool | 1 | 0, 1 |
-| 字符型 | char | 1 |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
+### 基本类型修饰符
 
+- signed
+- unsigned
+- short
+- long
 
+### wchar_t 本质
 
+```c++
+typedef wchar_t short int;
+```
 
+### 类型所占字节数
+`sizeof(int)`
 
-bool
+### 类型的最大值和最小值
+- **最小值**：`(numeric_limits<int>::min)()`
+- **最大值**：`(numeric_limits<int>::max)()`
 
-short, int, long, long long
-
-float, double
-
-char
+### 
 
 ### 指针
 
