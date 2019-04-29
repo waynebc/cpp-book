@@ -14,4 +14,5 @@
 * [日期 & 时间](Chapter1/datetime.md)
 * [基本的输入输出](Chapter1/baseio.md)
 * [数据结构](Chapter1/struct.md)
+* [面向对象](Chapter2/SUMMARY.md)
 
